@@ -21,7 +21,7 @@ To drive the controller, a voltage is applied to the heaters. The datasets inclu
 Select a wavelength and the circuit you want to use to query the behaviour of the mode controller. We do so by first finding the resonance shift per power in the electrical circuit, this effect is normally linear to the power so we can extrapolate to any value of power in the heaters. We may use said extrapolation to numerically shift the response at 0 W for any other value in the drive power. Note that even though the thermo-optic effect is linear, the temeperature change in the device is not necessarily depending on the environment conditions and the device temperature. The resulting extrapolated response is consequently only a good approximate in the same range as the data measured.
 
 # Using the notebook
-The easier way to interact with this notebook is openning a new google colab space (https://colab.research.google.com/) and cloning this reposiry by running
+The easier way to interact with this notebook is openning a new google colab space (https://colab.research.google.com/) and cloning this repository by running
 
 ```
 git clone https://github.com/jevillegasd/ModeController
